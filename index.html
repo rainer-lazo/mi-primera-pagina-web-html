@@ -3,69 +3,74 @@
   <head>
     <meta charset="utf-8" />
     <title>Primera Pagina Web</title>
-    <meta name="Description" content="Esta es mi primer pagina web" />
-    <meta name="author" content="Fazt" />
-    <style></style>
+    <meta
+      name="keywords"
+      content="M primer tituto, mi primer 
+    pagina, pagina web"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
-  <header>
-    <h1>Mi Blog</h1>
-  </header>
   <body>
-    <nav>
-      <ul>
-        <li>principal</li>
-        <li>ayuda</li>
-        <li>contacto</li>
-      </ul>
-    </nav>
+    <div class="agrupar">
+      <header class="cabecera">
+        <h1>Mi Blog</h1>
+      </header>
+      <nav class="menu">
+        <ul>
+          <li>principal</li>
+          <li>ayuda</li>
+          <li>contacto</li>
+        </ul>
+      </nav>
+      <div class="contenido">
+        <section class="seccion">
+          <article>
+            <hgroup>
+              <h1>Titulo del Primer articulo</h1>
+              <h2>Subtitulo del primer articulo</h2>
+            </hgroup>
 
-    <section>
-      <article>
-        <hgroup>
-          <h1>Titulo del Primer articulo</h1>
-          <h2>Subtitulo del primer articulo</h2>
-        </hgroup>
+            <p>
+              <time> Publicado 11-18-2022</time>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <small
+                >Adipisci* black cumque qui, impedit nisi, fugit reprehenderit
+                fuga ratione tenetur consectetur.</small
+              >
+            </p>
 
-        <p>
-          <time> Publicado 11-18-2022</time>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <small>Adipiscis</small>
+            <address>
+              <a href="http://google.com">Google</a>
+            </address>
 
-          consequuntur ut cumque qui, impedit nisi, fugit reprehenderit fuga
-          ratione tenetur consectetur.
-        </p>
-        <img src="grayscale-real-madrid-4k-7004v8x4g9hjivtr.jpeg" />
-        <footer>
-          <p>Comentarios[0]</p>
-        </footer>
-        <address>
-          <a href="http://google.com">Vista de Google</a>
-        </address>
+            <h1>Titulo del segundo articulo</h1>
+            <h2>Subtitulo del segundo articulo</h2>
+          </article>
+          <article>
+            <time> <datetime>Publicado 11-18-2022</datetime> </time>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit in
+              repudiandae quaerat ducimus molestiae, voluptatem nisi officia,
+              incidunt fugiat saepe numquam velit iure pariatur ipsa explicabo
+              libero tenetur? Ad, consectetur.
+            </p>
 
-        <h1>Titulo del Segundo articulo</h1>
+            <img class="image" src="real.madrid" />
 
-        <h2>Subtitulo del segundo articulo</h2>
-      </article>
-      <article>
-        <time> <datetime>Publicado 11-18-2022</datetime></time>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit in
-          repudiandae quaerat ducimus molestiae, voluptatem nisi officia,
-          incidunt fugiat saepe numquam velit iure pariatur ipsa explicabo
-          libero tenetur? Ad, consectetur
-        </p>
-        <footer>
-          <p>Comentarios[10]</p>
-        </footer>
-      </article>
-    </section>
+            <footer>
+              <p>Comentarios[10]</p>
+            </footer>
+          </article>
+        </section>
 
-    <blockquote cite="http://faztweb.com">Mensaje 1</blockquote>
+        <aside class="columna">
+          <blockquote cite="http://faztweb.com">Mensaje 1</blockquote>
 
-    <blockquote cite="http://facebook.com/faztweb">Mensaje 2</blockquote>
-    <aside>Archivo Acerca de</aside>
-
-    <footer>Derechos Reservados 2020-2022</footer>
+          <blockquote cite="http://facebook.com/faztweb">Mensaje 2</blockquote>
+        </aside>
+        <aside>Archivo acerca de</aside>
+      </div>
+    </div>
+    <footer class="pie">Derechos Reservados 2020-2022</footer>
   </body>
 </html>
